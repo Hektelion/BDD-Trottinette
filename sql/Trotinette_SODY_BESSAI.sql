@@ -173,8 +173,7 @@ CREATE TABLE `utilisateur` (
 
 INSERT INTO `utilisateur` (`id_utilisateur`, `identifiant`, `mot_de_passe`, `nom`, `prenom`, `adresse`, `privilege`) VALUES
 (1, 'projetBDD', '127c0093633ff327b7ca7e327d81cd949d1d0b21', 'aucun', 'aucun', 'aucune', 2),
-(2, 'faridd', '8ce82db652ebc3f56a9d6ad8813576f62c2fdb46', 'ddfdfbxfgb', 'bbfdgbfgb', 'dghfghfgh', 0),
-(3, 'Test66', 'e1051e880ef5c449104bc952e2b260dc9da3ee21', 'Test66', 'Test66', 'Test66', 0);
+(2, 'Test66', 'e1051e880ef5c449104bc952e2b260dc9da3ee21', 'Test66', 'Test66', 'Test66', 1);
 
 --
 -- Index pour les tables exportées
